@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdfka
+    - field.field.block_content.pdfka.body
+    - field.field.block_content.pdfka.field_pdf
+  module:
+    - file
+    - text
+id: block_content.pdfka.default
+targetEntityType: block_content
+bundle: pdfka
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_pdf:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+hidden: {  }

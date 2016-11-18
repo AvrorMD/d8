@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdfka
+    - field.field.block_content.pdfka.body
+    - field.field.block_content.pdfka.field_pdf
+  module:
+    - file
+    - text
+id: block_content.pdfka.default
+targetEntityType: block_content
+bundle: pdfka
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_pdf:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_v_danomu_poly_vvedit_vas_m
+id: contact_message.feedback.field_v_danomu_poly_vvedit_vas_m
+field_name: field_v_danomu_poly_vvedit_vas_m
+entity_type: contact_message
+bundle: feedback
+label: 'В даному полы введіть ваш @mail.ru'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
