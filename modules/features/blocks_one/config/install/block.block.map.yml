@@ -1,0 +1,38 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:8b518003-2777-49c6-8aef-17d77270f46b'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - bartik
+id: map
+theme: bartik
+region: '-1'
+weight: -8
+provider: null
+plugin: 'block_content:8b518003-2777-49c6-8aef-17d77270f46b'
+settings:
+  id: 'block_content:8b518003-2777-49c6-8aef-17d77270f46b'
+  label: Map
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }
