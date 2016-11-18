@@ -1,0 +1,14 @@
+name: Social Counters
+description: Pull the number of followers / subscribers / likes / etc. from several social networks.
+package: Other
+type: module
+# core: 8.x
+dependencies:
+  - serialization
+  - views
+configure: social_counters.admin_display
+# Information added by Drupal.org packaging script on 2016-10-21
+version: '8.x-1.0'
+core: '8.x'
+project: 'social_counters'
+datestamp: 1477049350
