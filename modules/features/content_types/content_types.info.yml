@@ -1,0 +1,14 @@
+name: 'Content types'
+type: module
+core: 8.x
+dependencies:
+  - comment
+  - field
+  - image
+  - link
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+version: 8.x-1.0
