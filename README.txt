@@ -1,5 +1,4 @@
-
-I want another title in this file
+File with merge conflict
 ---------------------
 
  * About Drupal
