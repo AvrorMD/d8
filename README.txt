@@ -1,5 +1,5 @@
 
-CONTENTS OF THIS FILE
+This is new title of this file.
 ---------------------
 
  * About Drupal
