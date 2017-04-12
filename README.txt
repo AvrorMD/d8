@@ -1,5 +1,5 @@
 
-This is new title of this file.
+I want another title in this file
 ---------------------
 
  * About Drupal
