@@ -1,4 +1,4 @@
-File with merge conflict
+Some changes
 ---------------------
 
  * About Drupal
